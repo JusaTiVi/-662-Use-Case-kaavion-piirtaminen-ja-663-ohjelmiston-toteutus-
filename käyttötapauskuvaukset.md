@@ -51,10 +51,93 @@ jos tiedot on väärin, suorita **näytä kirjautumisvirhe**
 
 ## Käyttötapaus: näytä kirjautumisvirhe
 
+**käyttäjät:**
+järjestelmä
+
+**laukaisija:**
+**varmista salasana** tunnistaa virheen tiedoissa.
+
+**esiehto:**
+käyttäjä on yrittänyt kirjautua sisään.
+
+**jälkiehto:**
+käyttäjälle näytetään virheilmoitus.
+
+### Käyttötapauksen kulku
+
+
+
+### poikkeuksellinen toiminta
+
+
+
 ## Käyttötapaus: selaile äänestystuloksia
+
+**käyttäjät:**
+
+**laukaisija:**
+
+**esiehto:**
+
+**jälkiehto:**
+
+### Käyttötapauksen kulku
+
+
+
+### poikkeuksellinen toiminta
+
+
 
 ## Käyttötapaus: uusi äänestys
 
+**käyttäjät:**
+
+**laukaisija:**
+
+**esiehto:**
+
+**jälkiehto:**
+
+### Käyttötapauksen kulku
+
+
+
+### poikkeuksellinen toiminta
+
+
+
 ## Käyttötapaus: poista äänestys
 
+**käyttäjät:**
+
+**laukaisija:**
+
+**esiehto:**
+
+**jälkiehto:**
+
+### Käyttötapauksen kulku
+
+
+
+### poikkeuksellinen toiminta
+
+
+
 ## Käyttötapaus: tee äänestys
+
+**käyttäjät:**
+
+**laukaisija:**
+
+**esiehto:**
+
+**jälkiehto:**
+
+### Käyttötapauksen kulku
+
+
+
+### poikkeuksellinen toiminta
+
