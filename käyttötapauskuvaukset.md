@@ -3,7 +3,7 @@
 ## Käyttötapaus: sisäänkirjautuminen
 
 **käyttäjät:**
-käyttäjä, äänestäjä
+käyttäjä
 
 **laukaisija:**
 käyttäjä haluaa käyttää sovellusta kirjautumista vaativalla tavalla.
@@ -12,7 +12,7 @@ käyttäjä haluaa käyttää sovellusta kirjautumista vaativalla tavalla.
 käyttäjällä on olemassa ja käytössä oleva käyttäjätili.
 
 **jälkiehto:**
-käyttäjä on kirjautunut sisään ja pääsee käyttämään mukana tulevia etuja esim. mahdollisuus
+käyttäjä on kirjautunut sisään ja pääsee käyttämään mukana tulevia etuja.
 
 ### Käyttötapauksen kulku
 
@@ -23,21 +23,31 @@ käyttäjä on kirjautunut sisään ja pääsee käyttämään mukana tulevia et
 
 ### Poikkeuksellinen toiminta
 
-jos salasana on väärä, suorita **näytä kirjautumisvirhe**
+jos **varmista salasana** epäonnistuu, pidä käyttäjä samalla sivulla ja suorita **näytä kirjautumisvirhe**
+
+
 
 ## Käyttötapaus: Varmista salasana
 
 **käyttäjät:**
-sisäänkirjautuminen
+järjestelmä
 
 **laukaisija:**
-
+käyttäjä painaa nappia kirjatessa sisään.
 
 **esiehto:**
-
+käyttäjä on syöttänyt oikeat ja tarvittavat tiedot tekstikenttiin.
 
 **jälkiehto:**
+järjestelmä hyväksyy sisäänkirjautumisen, ja päästää käyttäjän käyttäjälleen.
 
+### Käyttötapauksen kulku
+
+1. ohjelma katsoo onko ohjelmistoon kirjattu käyttäjä samoilla tiedoilla, kuin mitä käyttäjä kirjoitti **sisäänkirjautuminen** kohdassa.
+
+### poikkeuksellinen toiminta
+
+jos tiedot on väärin, suorita **näytä kirjautumisvirhe**
 
 ## Käyttötapaus: näytä kirjautumisvirhe
 
