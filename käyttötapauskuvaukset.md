@@ -33,7 +33,7 @@ jos **varmista salasana** epäonnistuu, pidä käyttäjä samalla sivulla ja suo
 järjestelmä
 
 **laukaisija:**
-käyttäjä painaa nappia kirjatessa sisään.
+käyttäjä painaa sisäänkirjautumis-nappia.
 
 **esiehto:**
 käyttäjä on syöttänyt oikeat ja tarvittavat tiedot tekstikenttiin.
@@ -92,12 +92,16 @@ käyttäjälle näytetään virheilmoitus.
 ## Käyttötapaus: uusi äänestys
 
 **käyttäjät:**
+ylläpitäjä
 
 **laukaisija:**
+ylläpitäjä tahtoo lisätä uuden äänestyksen.
 
 **esiehto:**
+ylläpitäjä on kirjautunut sisään.
 
 **jälkiehto:**
+ylläpitäjä pääsee vapaasti lisämään äänestyksiä käyttäjille selailtaviksi ja äänestettäviksi.
 
 ### Käyttötapauksen kulku
 
@@ -110,12 +114,16 @@ käyttäjälle näytetään virheilmoitus.
 ## Käyttötapaus: poista äänestys
 
 **käyttäjät:**
+ylläpitäjä
 
 **laukaisija:**
+ylläpitäjä tahtoo poistaa äänestyksen.
 
 **esiehto:**
+ylläpitäjä on kirjautunut sisään ja äänestys on jo olemassa.
 
 **jälkiehto:**
+ylläpitäjä voi poistaa äänestyksiä, jottei menneet tai sopimattomat äänestykset näy käyttäjille.
 
 ### Käyttötapauksen kulku
 
@@ -128,6 +136,7 @@ käyttäjälle näytetään virheilmoitus.
 ## Käyttötapaus: tee äänestys
 
 **käyttäjät:**
+käyttäjä
 
 **laukaisija:**
 
