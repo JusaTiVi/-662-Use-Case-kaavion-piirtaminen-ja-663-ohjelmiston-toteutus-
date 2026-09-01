@@ -65,29 +65,37 @@ käyttäjälle näytetään virheilmoitus.
 
 ### Käyttötapauksen kulku
 
-
+1. järjestelmä tunnistaa, että kirjautumistiedot ovat virheelliset.
+2. järjestelmä näyttää käyttäjälle virheilmoituksen
 
 ### poikkeuksellinen toiminta
 
-
+aktivoituu ainoastaan, jos salasana on väärin.
 
 ## Käyttötapaus: selaile äänestystuloksia
 
 **käyttäjät:**
+käyttäjä
 
 **laukaisija:**
+käyttäjä haluaa tarkastella äänestysten tuloksia.
 
 **esiehto:**
+järjestelmässä on julkisia äänestystuloksia.
 
 **jälkiehto:**
+käyttäjä näkee valitsemansa äänestyksen tulokset.
 
 ### Käyttötapauksen kulku
 
-
+1. käyttäjä avaa äänestystulokset.
+2. ohjelma näyttää käyttäjälle äänestykset.
+3. käyttäjä valitsee äänestyksen.
+4. ohjelma näyttää äänestyksen tulokset.
 
 ### poikkeuksellinen toiminta
 
-
+jos tuloksia ei voi näyttää, ohjelma ilmoittaa käyttäjälle.
 
 ## Käyttötapaus: uusi äänestys
 
@@ -105,11 +113,14 @@ ylläpitäjä pääsee vapaasti lisämään äänestyksiä käyttäjille selailt
 
 ### Käyttötapauksen kulku
 
-
+1. ylläpitäjä avaa äänestyksen luomisen.
+2. ohjelma pyytää äänestyksen tiedot.
+3. ylläpitäjä vahvistaa äänestyksen.
+4. ohjelma tallentaa uuden äänestyksen ja näyttää sen käyttäjille.
 
 ### poikkeuksellinen toiminta
 
-
+jos tekijä lähtee julkaisematta äänestystä, käyttäjät eivät voi nähdä eikä äänestää sitä.
 
 ## Käyttötapaus: poista äänestys
 
@@ -127,11 +138,14 @@ ylläpitäjä voi poistaa äänestyksiä, jottei menneet tai sopimattomat ääne
 
 ### Käyttötapauksen kulku
 
-
+1. ylläpitäjä avaa äänestysten hallinnan.
+2. ylläpitäjä valitsee äänestyksen.
+3. ylläpitäjä valitsee **poista äänestys**.
+4. järjestelmä poistaa äänestyksen.
 
 ### poikkeuksellinen toiminta
 
-
+jos tulee ongelmia, ohjelma ilmoittaa ylläpitäjälle.
 
 ## Käyttötapaus: tee äänestys
 
