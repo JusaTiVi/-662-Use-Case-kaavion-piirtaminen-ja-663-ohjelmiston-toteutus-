@@ -153,14 +153,22 @@ jos tulee ongelmia, ohjelma ilmoittaa ylläpitäjälle.
 käyttäjä
 
 **laukaisija:**
+käyttäjä haluaa äänestää avoinna olevaan äänestykseen.
 
 **esiehto:**
+käyttäjä on kirjautunut sisään ja äänestys on auki.
 
 **jälkiehto:**
+käyttäjän ääni on tallennettu.
 
 ### Käyttötapauksen kulku
 
-
+1. käyttäjä avaa äänestysten listan.
+2. ohjelma näyttää avoimet äänestykset.
+3. käyttäjä valitsee äänestyksen.
+4. ohjelma näyttää äänestyksen tiedot.
+5. käyttäjä äänestää, ohjelma tallentaa äänen.
 
 ### poikkeuksellinen toiminta
 
+jos käyttäjä ei valitse ääntä ennen lähettämistä, ohjelma ilmoittaa käyttäjälle ja pysyy samalla sivulla.
