@@ -3,10 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Äänestyssovellus</title>
+    <title>sisäänkirjautuminen</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="login">
+        <h1>kirjaudu sisään</h1>
+
+        <p>käyttäjänimi</p>
+        <input type="text" id="username" required>
+
+        <p>salasana</p>
+        <input type="password" id="password" required>
+
+        <button type="submit">kirjaudu</button>
+
+        <p id="loginError" class="error"></p>
+
+    </div>
     <script src="main.js"></script>
 </body>
 </html>
